@@ -354,3 +354,94 @@ hr{
     margin-bottom: 30px;
 }
 
+/* Responsive Styles */
+@media (max-width: 1100px) {
+  .spotify-piaylist .card {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .spotify-piaylist .card .item {
+    width: 180px;
+  }
+}
+
+@media (max-width: 900px) {
+  .sideBar {
+    width: 200px;
+  }
+  .main-section {
+    margin-left: 200px;
+  }
+  .spotify-piaylist .card .item {
+    width: 150px;
+    min-width: 120px;
+  }
+  .footer-section {
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .sideBar {
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .main-section {
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .footer-section .footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-section .footer .footer-link {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-section .top-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 10px;
+  }
+  .spotify-piaylist {
+    padding: 10px 5px;
+  }
+  .spotify-piaylist .card {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .spotify-piaylist .card .item {
+    width: 100%;
+    min-width: unset;
+    padding: 10px;
+  }
+  .footer-section {
+    padding: 10px 5px;
+  }
+  hr, .copyright {
+    margin: 10px 5px;
+    padding: 0 5px;
+  }
+}
+
+/* Hide sidebar on very small screens and add a menu button if needed */
+@media (max-width: 400px) {
+  .sideBar-nav-box2 {
+    display: none;
+  }
+  .sideBar{
+    width: 100%;
+    position: relative;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .main-section {
+    margin-left: 0;
+  }
+}
+

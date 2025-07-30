@@ -120,3 +120,92 @@ nav ul {
     opacity: 0;
     transition: opacity 0.3s ease-in;
 }
+
+/* Responsive Styles */
+@media (max-width: 1000px) {
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+  .songItem {
+    width: 60%;
+  }
+  #myProgressbar {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 700px) {
+  nav ul {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+  .container {
+    width: 98%;
+    padding: 10px;
+    min-height: 60vh;
+    background-size: cover;
+  }
+  .songItem {
+    width: 90%;
+    font-size: 0.95rem;
+  }
+  .songInfo {
+    left: 2vw;
+    font-size: 0.95rem;
+  }
+  #myProgressbar {
+    width: 98vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 5px;
+    min-height: 50vh;
+  }
+  .songItem {
+    width: 100%;
+    margin: 8px 0;
+    font-size: 0.9rem;
+    padding: 0 4px;
+  }
+  .songItem img {
+    width: 36px;
+    margin: 0 8px;
+  }
+  .timesteam {
+    margin: 0 8px;
+    font-size: 0.9rem;
+  }
+  .bottom {
+    height: 70px;
+    font-size: 0.9rem;
+  }
+  .icon {
+    margin-top: 8px;
+  }
+  .songInfo {
+    left: 2vw;
+    margin-top: 8px;
+    font-size: 0.85rem;
+  }
+  #myProgressbar {
+    width: 95vw;
+  }
+}
+
+@media (max-width: 400px) {
+  nav ul li {
+    font-size: 0.9rem;
+    padding: 0 6px;
+  }
+  .brand img {
+    width: 32px;
+    padding: 0 4px;
+  }
+  .container h1 {
+    font-size: 1.1rem;
+  }
+}
