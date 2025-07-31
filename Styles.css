@@ -201,18 +201,18 @@ body{
     cursor: pointer;
 }
 
-.top-nav .login-btn .Sign-up{
+.top-nav .login-form-btn .Sign-up{
     color: #a49b9b;
     font-size: 16px;
     font-weight: 600;
     margin-right:25px ;
 }
-.top-nav .login-btn .Sign-up:hover{
+.top-nav .login-form-btn .Sign-up:hover{
     color:#fff;
     cursor: pointer;
 }
 
-.top-nav .login-btn .login{
+.top-nav .login-form-btn .login{
     color: black;
     font-size: 16px;
     font-weight: 600;
@@ -221,7 +221,7 @@ body{
     border-radius: 20px;
 
 }
-.top-nav .login-btn .login:hover{
+.top-nav .login-form-btn .login:hover{
     background:#838181;
     cursor: pointer;
 }
